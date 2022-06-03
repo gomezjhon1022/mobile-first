@@ -254,3 +254,19 @@ main {
     line-height: 1.5rem;
     color:var(--warm-black);
 }
+.main-product-detail {
+    position:relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 20px 10px;
+    background-color: var(--warm-black);
+}
+.product-detail--batata-logo {
+    position: absolute;
+    width: 40px;
+    height: 25px;
+    top: calc(0% - 12.5px);
+    left: calc(50% - 20px);
+    background-image: url("https://i.ibb.co/4tL16BQ/batata.png");
+}
