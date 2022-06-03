@@ -303,31 +303,25 @@ main {
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
 }
-.product-detail--card .clock {
+.product-detail--card .icon-card {
     display:inline-block;
     width: 20px;
     height: 20px;
     margin-bottom: 10px;
+}
+.clock {
     background-image: url("https://i.ibb.co/GkQhkP0/clock.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
-.product-detail--card .eye {
-    display:inline-block;
-    width: 20px;
-    height: 20px;
-    margin-bottom: 10px;
+.eye {
     background-image: url("https://i.ibb.co/jvJymvS/eye.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
-.product-detail--card .cash {
-    display:inline-block;
-    width: 20px;
-    height: 20px;
-    margin-bottom: 10px;
+.cash {
     background-image: url("https://i.ibb.co/bRxGPwX/dollar-sign.png");
     background-position: center;
     background-size: cover;
@@ -338,6 +332,8 @@ main {
     width: 20px;
     height: 20px;
     margin-bottom: 10px;
+}
+.check {
     background-image: url("https://i.ibb.co/z7pL9B0/check-circle.png");
     background-position: center;
     background-size: cover;
